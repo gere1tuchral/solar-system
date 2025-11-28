@@ -1,0 +1,113 @@
+#background {
+  width: 100vh;
+  height: 100vh;
+  background-image: url(./galaxy.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.plants {
+  background-position: center;
+  background-size: cover;
+  border: dashed 1px white;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.plants > div {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+}
+#sun {
+  height: 100px;
+  width: 100px;
+  background-image: url(./sun.png);
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-position: center;
+  background-size: cover;
+}
+#planet1 {
+  width: 150px;
+  height: 150px;
+}
+
+#mercury {
+  background-image: url(./mercury.png);
+  width: 20px;
+  height: 20px;
+}
+#planet2 {
+  width: 210px;
+  height: 210px;
+}
+
+#venus {
+  background-image: url(./venus.png);
+  width: 30px;
+  height: 30px;
+}
+#planet3 {
+  width: 300px;
+  height: 300px;
+}
+#earth {
+  background-image: url(./earth.png);
+  width: 30px;
+  height: 30px;
+}
+#planet4 {
+  width: 400px;
+  height: 400px;
+}
+#mars {
+  background-image: url(./mars.png);
+  width: 20px;
+  height: 20px;
+}
+#planet5 {
+  width: 550px;
+  height: 550px;
+}
+#jupiter {
+  background-image: url(./jupiter.png);
+  height: 55px;
+  width: 55px;
+}
+#planet6 {
+  width: 650px;
+  height: 650px;
+}
+#saturn {
+  background-image: url(./saturn.png);
+  width: 40px;
+  height: 40px;
+}
+#planet7 {
+  width: 750px;
+  height: 750px;
+}
+#uranus {
+  background-image: url(./uranus.png);
+  width: 50px;
+  height: 50px;
+}
+#planet8 {
+  width: 850px;
+  height: 850px;
+}
+#neptune {
+  background-image: url(./neptune.png);
+  width: 35px;
+  height: 35px;
+}
