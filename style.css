@@ -40,74 +40,218 @@
 #planet1 {
   width: 150px;
   height: 150px;
+  animation: testdiv 8s infinite linear;
 }
 
 #mercury {
   background-image: url(./mercury.png);
   width: 20px;
   height: 20px;
+  animation: mercury 2s infinite;
+}
+@keyframes testdiv {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes mercury {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 #planet2 {
   width: 210px;
   height: 210px;
+  animation: planet2 6s infinite linear;
 }
 
 #venus {
   background-image: url(./venus.png);
   width: 30px;
   height: 30px;
+  animation: venus 0.3s infinite linear;
+}
+@keyframes planet2 {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes venus {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 #planet3 {
   width: 300px;
   height: 300px;
+  animation: planet3 10s infinite linear;
 }
 #earth {
   background-image: url(./earth.png);
   width: 30px;
   height: 30px;
+  animation: earth 0.5s infinite linear;
+}
+@keyframes planet3 {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes earth {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 #planet4 {
   width: 400px;
   height: 400px;
+  animation: planet4 20s infinite linear;
 }
 #mars {
   background-image: url(./mars.png);
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
+  animation: mars 1s infinite linear;
+}
+@keyframes planet4 {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes mars {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 #planet5 {
-  width: 550px;
-  height: 550px;
+  width: 750px;
+  height: 750px;
+  animation: planet5 10s infinite linear;
 }
 #jupiter {
   background-image: url(./jupiter.png);
-  height: 55px;
-  width: 55px;
+  height: 105px;
+  width: 105px;
+  animation: jupiter 4s infinite linear;
+}
+@keyframes planet5 {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes jupiter {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 #planet6 {
-  width: 650px;
-  height: 650px;
+  width: 1000px;
+  height: 1000px;
+  animation: planet6 8s infinite linear;
 }
 #saturn {
   background-image: url(./saturn.png);
-  width: 40px;
-  height: 40px;
+  width: 90px;
+  height: 90px;
+  animation: saturn 2s infinite linear;
+}
+@keyframes planet6 {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes saturn {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 #planet7 {
-  width: 750px;
-  height: 750px;
+  width: 1350px;
+  height: 1250px;
+  animation: planet7 30s infinite linear;
 }
 #uranus {
   background-image: url(./uranus.png);
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+  animation: uranus 5s infinite linear;
+}
+@keyframes planet7 {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes uranus {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 #planet8 {
-  width: 850px;
-  height: 850px;
+  width: 1500px;
+  height: 1500px;
+  animation: planet8 20s infinite linear;
 }
 #neptune {
   background-image: url(./neptune.png);
-  width: 35px;
-  height: 35px;
+  width: 80px;
+  height: 80px;
+  animation: neptune 1s infinite linear;
+}
+@keyframes planet8 {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes neptune {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
